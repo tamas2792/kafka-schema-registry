@@ -1,0 +1,29 @@
+{
+
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "middleName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "emailId",
+      "type": "string",
+      "default": ""
+    }
+  ],
+  "name": "Employee",
+  "namespace": "com.java.dto",
+  "type": "record"
+}
